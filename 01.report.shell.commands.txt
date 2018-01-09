@@ -1,0 +1,70 @@
+$echo Hello World
+Hello World
+
+$passwd 
+Changing password for ling.
+(current) UNIX password: 
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+
+$date
+Tue, 09 Jan 2018 15:59:14 +07
+
+$hostname
+ling-virtual-machine
+
+$arch
+x86_64
+
+$uname -a
+Linux ling-virtual-machine 4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+
+$dmesg
+[    0.000000] Linux version 4.10.0-28-generic (buildd@lgw01-12) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ) #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017 (Ubuntu 4.10.0-28.32~16.04.2-generic 4.10.17)
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.10.0-28-generic root=UUID=09a1fcf1-cd57-4034-8c99-0a0a925fd7f7 ro quiet splash
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls
+[    0.000000] Disabled fast string operations
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x008: 'MPX bounds registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x010: 'MPX CSR'
+
+$uptime 
+ 16:01:18 up 10 min,  1 user,  load average: 0,01, 0,42, 0,45
+
+$who am i
+
+$whoami
+ling
+
+$who
+ling     tty7         2018-01-09 15:52 (:0)
+
+$id
+uid=1000(ling) gid=1000(ling) groups=1000(ling),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare)
+
+$last
+ling     tty7         :0               Tue Jan  9 15:52    gone - no logout
+reboot   system boot  4.10.0-28-generi Tue Jan  9 15:50   still running
+ling     tty7         :0               Tue Jan  9 15:45 - down   (00:05)
+reboot   system boot  4.10.0-28-generi Tue Jan  9 15:45 - 15:50  (00:05)
+ling     tty7         :0               Fri Jan  5 14:22 - crash (4+01:23)
+reboot   system boot  4.10.0-28-generi Fri Jan  5 14:21 - 15:50 (4+01:29)
+
+wtmp begins Fri Jan  5 14:21:38 2018
+
+$finger
+Login     Name       Tty      Idle  Login Time   Office     Office Phone
+ling      ling       tty7       14  Jan  9 15:52 (:0)
+
+
+$w
+ 16:05:20 up 14 min,  1 user,  load average: 0,22, 0,33, 0,40
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+ling     tty7     :0               15:52   13:47   5.93s  0.14s /sbin/upstart -
+
