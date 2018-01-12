@@ -1,0 +1,302 @@
+$ps -aux
+USER        PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root          1  0.1  0.4 185324  4032 ?        Ss   Th0112   0:01 /sbi
+root          2  0.0  0.0      0     0 ?        S    Th0112   0:00 [kth
+root          4  0.0  0.0      0     0 ?        S<   Th0112   0:00 [kwo
+root          6  0.1  0.0      0     0 ?        S    Th0112   0:01 [kso
+root          7  0.0  0.0      0     0 ?        S    Th0112   0:00 [rcu
+root          8  0.0  0.0      0     0 ?        S    Th0112   0:00 [rcu
+root          9  0.0  0.0      0     0 ?        S    Th0112   0:00 [mig
+root         10  0.0  0.0      0     0 ?        S<   Th0112   0:00 [lru
+root         11  0.0  0.0      0     0 ?        S    Th0112   0:00 [wat
+root         12  0.0  0.0      0     0 ?        S    Th0112   0:00 [cpu
+root         13  0.0  0.0      0     0 ?        S    Th0112   0:00 [kde
+root         14  0.0  0.0      0     0 ?        S<   Th0112   0:00 [net
+root         15  0.0  0.0      0     0 ?        S    Th0112   0:00 [khu
+root         16  0.0  0.0      0     0 ?        S    Th0112   0:00 [oom
+root         17  0.0  0.0      0     0 ?        S<   Th0112   0:00 [wri
+root         18  0.0  0.0      0     0 ?        S    Th0112   0:00 [kco
+root         19  0.0  0.0      0     0 ?        SN   Th0112   0:00 [ksm
+root         20  0.0  0.0      0     0 ?        SN   Th0112   0:00 [khu
+root         21  0.0  0.0      0     0 ?        S<   Th0112   0:00 [cry
+root         22  0.0  0.0      0     0 ?        S<   Th0112   0:00 [kin
+root         23  0.0  0.0      0     0 ?        S<   Th0112   0:00 [bio
+root         24  0.0  0.0      0     0 ?        S<   Th0112   0:00 [kbl
+root         25  0.0  0.0      0     0 ?        S<   Th0112   0:00 [ata
+root         26  0.0  0.0      0     0 ?        S<   Th0112   0:00 [md]
+root         27  0.0  0.0      0     0 ?        S<   Th0112   0:00 [dev
+root         28  0.0  0.0      0     0 ?        S<   Th0112   0:00 [wat
+root         30  0.0  0.0      0     0 ?        S    Th0112   0:00 [kwo
+root         32  0.0  0.0      0     0 ?        S    Th0112   0:00 [kau
+root         33  0.0  0.0      0     0 ?        S    Th0112   0:00 [ksw
+root         34  0.0  0.0      0     0 ?        S<   Th0112   0:00 [vms
+root         35  0.0  0.0      0     0 ?        S<   Th0112   0:00 [bio
+root         36  0.0  0.0      0     0 ?        S    Th0112   0:00 [ecr
+root         76  0.0  0.0      0     0 ?        S<   Th0112   0:00 [kth
+root         77  0.0  0.0      0     0 ?        S<   Th0112   0:00 [acp
+root         78  0.0  0.0      0     0 ?        S<   Th0112   0:00 [bio
+root         79  0.0  0.0      0     0 ?        S<   Th0112   0:00 [bio
+root         80  0.0  0.0      0     0 ?        S<   Th0112   0:00 [bio
+root         81  0.0  0.0      0     0 ?        S<   Th0112   0:00 [bio
+root         82  0.0  0.0      0     0 ?        S<   Th0112   0:00 [bio
+root         83  0.0  0.0      0     0 ?        S<   Th0112   0:00 [bio
+root         84  0.0  0.0      0     0 ?        S<   Th0112   0:00 [bio
+root         85  0.0  0.0      0     0 ?        S<   Th0112   0:00 [bio
+root         86  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root         87  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root         88  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root         89  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root         95  0.0  0.0      0     0 ?        S<   Th0112   0:00 [ipv
+root        117  0.0  0.0      0     0 ?        S<   Th0112   0:00 [cha
+root        163  0.0  0.0      0     0 ?        S<   Th0112   0:00 [mpt
+root        164  0.0  0.0      0     0 ?        S<   Th0112   0:00 [mpt
+root        165  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        166  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        167  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        168  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        169  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        170  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        171  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        172  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        173  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        174  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        175  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        176  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        177  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        178  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        179  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        180  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        181  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        182  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        183  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        184  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        185  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        186  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        187  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        188  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        189  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        190  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        191  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        192  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        193  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        194  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        195  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        196  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        197  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        198  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        199  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        200  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        201  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        202  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        203  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        204  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        205  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        206  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        207  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        208  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        209  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        210  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        211  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        212  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        213  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        214  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        215  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        216  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        217  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        218  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        219  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        220  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        221  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        222  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        223  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        224  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        225  0.0  0.0      0     0 ?        S    Th0112   0:00 [scs
+root        226  0.0  0.0      0     0 ?        S<   Th0112   0:00 [scs
+root        254  0.0  0.0      0     0 ?        S<   Th0112   0:00 [ttm
+root        255  0.0  0.0      0     0 ?        S<   Th0112   0:00 [bio
+root        272  0.0  0.0      0     0 ?        S<   Th0112   0:00 [bio
+root        279  0.0  0.0      0     0 ?        S<   Th0112   0:01 [kwo
+root        317  0.0  0.0      0     0 ?        S    Th0112   0:00 [jbd
+root        318  0.0  0.0      0     0 ?        S<   Th0112   0:00 [ext
+root        350  0.0  0.1  28432  1488 ?        Ss   Th0112   0:00 /lib
+root        369  0.0  0.1  46408  1328 ?        Ss   Th0112   0:01 /lib
+systemd+    420  0.0  0.0 102384   472 ?        Ssl  Th0112   0:00 /lib
+root        427  0.0  0.0      0     0 ?        S    Th0112   0:00 [kwo
+root        529  0.0  0.0      0     0 ?        S<   Th0112   0:00 [nfi
+syslog      804  0.0  0.0 256396   444 ?        Ssl  Th0112   0:00 /usr
+message+    805  0.0  0.2  44232  2732 ?        Ss   Th0112   0:00 /usr
+root        830  0.0  0.0  37604   688 ?        Ss   Th0112   0:00 /usr
+root        833  0.0  0.6 390680  6252 ?        Ssl  Th0112   0:00 /usr
+avahi       834  0.0  0.1  44916  1236 ?        Ss   Th0112   0:00 avah
+root        842  0.0  0.2 299880  2368 ?        Ssl  Th0112   0:00 /usr
+avahi       844  0.0  0.0  44788    28 ?        S    Th0112   0:00 avah
+root        848  0.0  0.0   4400     4 ?        Ss   Th0112   0:00 /usr
+root        850  0.0  0.1 337396  1668 ?        Ssl  Th0112   0:00 /usr
+root        854  0.0  0.0  28660   584 ?        Ss   Th0112   0:00 /lib
+root        867  0.0  1.1 212980 11168 ?        Ssl  Th0112   0:00 /usr
+root        971  0.0  0.5 306032  5120 ?        Ssl  Th0112   0:00 /usr
+root        976  0.0  0.2 292168  2384 ?        Ssl  Th0112   0:00 /usr
+root       1077  0.0  0.1  16124  1772 ?        S    Th0112   0:00 /sbi
+root       1086  0.4  3.1 395484 31672 tty7     Ssl+ Th0112   0:06 /usr
+nobody     1102  0.0  0.0  61464   168 ?        S    Th0112   0:00 /usr
+root       1342  0.0  0.1 228240  1868 ?        Sl   Th0112   0:00 ligh
+root       1364  0.0  0.2 266724  2128 ?        Ssl  Th0112   0:00 /usr
+ling       1374  0.0  0.1  45248  1480 ?        Ss   Th0112   0:00 /lib
+ling       1386  0.0  0.0  63404    40 ?        S    Th0112   0:00 (sd-
+root       1391  0.0  0.3 175308  3264 ?        Sl   Th0112   0:01 /usr
+ling       1408  0.0  0.2  55064  2488 ?        Ss   Th0112   0:00 /sbi
+root       1414  0.0  0.1  71056  1396 ?        S    Th0112   0:00 /usr
+root       1479  0.0  0.3 510276  3848 ?        Sl   Th0112   0:00 //us
+whoopsie   1480  0.0  0.2 386672  2316 ?        Ssl  Th0112   0:00 /usr
+root       1490  0.0  0.0  24536   248 tty1     Ss+  Th0112   0:00 /sbi
+ling       1597  0.0  0.0  41456   100 ?        S    Th0112   0:00 upst
+ling       1598  0.0  0.2  43844  2556 ?        Ss   Th0112   0:00 dbus
+ling       1610  0.0  0.0  94948   700 ?        Ss   Th0112   0:00 /usr
+ling       1627  0.0  0.0  41392   112 ?        S    Th0112   0:00 upst
+ling       1628  0.0  0.0  41392   116 ?        S    Th0112   0:00 upst
+ling       1632  0.0  0.2 366904  2924 ?        Ssl  Th0112   0:01 /usr
+ling       1638  0.0  0.0  49884   128 ?        S    Th0112   0:00 upst
+ling       1646  0.0  0.3 356856  3292 ?        Sl   Th0112   0:00 /usr
+ling       1674  0.0  1.4 652184 14108 ?        Ssl  Th0112   0:00 /usr
+ling       1681  0.0  0.0 175136   176 ?        Ss   Th0112   0:00 gpg-
+ling       1684  0.0  0.1 213788  1768 ?        Sl   Th0112   0:00 gnom
+ling       1696  0.0  0.2 428292  2368 ?        Sl   Th0112   0:00 /usr
+ling       1702  0.0  0.2 286080  2404 ?        Sl   Th0112   0:00 /usr
+ling       1708  0.0  0.9 608208  9064 ?        Sl   Th0112   0:00 /usr
+ling       1713  0.0  0.7 558456  7016 ?        Sl   Th0112   0:00 /usr
+ling       1749  0.0  1.0 657372 10676 ?        Ssl  Th0112   0:00 /usr
+ling       1754  0.0  1.0 1012260 10572 ?       Ssl  Th0112   0:00 /usr
+ling       1757  0.0  0.2 353668  2404 ?        Sl   Th0112   0:00 /usr
+ling       1773  0.0  0.1  42900  1228 ?        S    Th0112   0:00 /usr
+ling       1796  0.0  0.6 716484  6328 ?        Ssl  Th0112   0:00 /usr
+ling       1799  0.0  0.2 206972  2520 ?        Sl   Th0112   0:00 /usr
+ling       1803  0.0  1.3 576008 13644 ?        Ssl  Th0112   0:00 /usr
+ling       1831  0.0  0.2 178664  2212 ?        Sl   Th0112   0:00 /usr
+root       1834  0.0  0.2 355688  2356 ?        Ssl  Th0112   0:00 /usr
+ling       1841  0.6  3.7 1197092 37176 ?       Ssl  Th0112   0:10 comp
+ling       1993  0.0  0.2 378676  2300 ?        Ssl  Th0112   0:00 /usr
+ling       1994  0.0  0.2 357644  2312 ?        Ssl  Th0112   0:00 /usr
+ling       1995  0.0  0.1 368104  1592 ?        Ssl  Th0112   0:00 /usr
+ling       1996  0.0  0.5 789592  5688 ?        Ssl  Th0112   0:00 /usr
+ling       1997  0.0  0.6 668012  6040 ?        Ssl  Th0112   0:00 /usr
+ling       1998  0.0  0.2 758140  2312 ?        Ssl  Th0112   0:00 /usr
+ling       1999  0.0  0.6 631908  6732 ?        Ssl  Th0112   0:00 /usr
+ling       2000  0.0  0.2 210216  2120 ?        Sl   Th0112   0:00 /usr
+ling       2001  0.0  0.2 579388  2508 ?        Ssl  Th0112   0:00 /usr
+ling       2011  0.0  0.5 403148  5292 ?        Ssl  Th0112   0:00 /usr
+colord     2052  0.0  0.2 322112  2724 ?        Ssl  Th0112   0:00 /usr
+ling       2067  0.0  0.2 713040  2968 ?        Sl   Th0112   0:00 /usr
+ling       2098  0.0  0.0 443404   624 ?        S<l  Th0112   0:00 /usr
+rtkit      2100  0.0  0.0 183544   724 ?        SNsl Th0112   0:00 /usr
+ling       2106  0.0  0.3 878456  3404 ?        Sl   Th0112   0:00 /usr
+ling       2123  0.2  3.7 997672 37784 ?        Sl   Th0112   0:03 naut
+ling       2127  0.0  0.6 585504  6748 ?        Sl   Th0112   0:00 /usr
+ling       2128  0.0  0.7 673840  7812 ?        Sl   Th0112   0:00 nm-a
+ling       2131  0.0  0.5 440164  5752 ?        Sl   Th0112   0:00 /usr
+ling       2136  0.2  8.7 1052444 87136 ?       Sl   Th0112   0:03 /usr
+ling       2145  0.0  0.3 304844  3536 ?        Sl   Th0112   0:00 /usr
+ling       2153  0.1  0.8 195504  7996 ?        S    Th0112   0:01 /usr
+root       2154  0.0  0.3 382292  3480 ?        Ssl  Th0112   0:00 /usr
+root       2167  0.0  1.8 635296 18260 ?        Sl   Th0112   0:00 /usr
+ling       2178  0.0  0.0 268124   768 ?        Sl   Th0112   0:00 /usr
+ling       2186  0.0  0.1 266132  1728 ?        Sl   Th0112   0:00 /usr
+ling       2189  0.0  2.6 823216 26728 ?        Sl   Th0112   0:00 /usr
+ling       2197  0.0  0.1 412208  1844 ?        Sl   Th0112   0:00 /usr
+ling       2199  0.0  0.1  69768  1668 ?        S    Th0112   0:00 /usr
+ling       2205  0.0  0.1 280320  1144 ?        Sl   Th0112   0:00 /usr
+ling       2221  0.0  3.2 815660 32268 ?        Sl   Th0112   0:00 /usr
+ling       2224  0.0  0.4 705892  4932 ?        Sl   Th0112   0:00 /usr
+ling       2246  0.0  0.4 781416  4312 ?        Sl   Th0112   0:00 /usr
+ling       2287  0.0  0.2 372244  2884 ?        Sl   Th0112   0:00 /usr
+ling       2303  0.0  0.2 194576  2304 ?        Sl   Th0112   0:00 /usr
+ling       2313  0.0  0.0   4508    76 ?        S    Th0112   0:00 /bin
+ling       2317  0.0  0.5 357888  5204 ?        Sl   Th0112   0:00 /usr
+ling       2325  0.0  0.7 321392  7148 ?        Sl   Th0112   0:00 /usr
+ling       2326  0.0  0.5 497944  5368 ?        Sl   Th0112   0:00 zeit
+ling       2352  0.2  2.1 674504 21780 ?        Sl   Th0112   0:03 /usr
+ling       2359  0.0  0.4  32092  4848 pts/17   Ss   Th0112   0:00 bash
+ling       2410  0.0  1.1 534820 11096 ?        Sl   Th0112   0:00 upda
+ling       2444  0.0  0.3 449896  3464 ?        Sl   Th0112   0:00 /usr
+ling       2520  0.0  0.4  31248  4120 pts/1    Ss   Th0112   0:00 bash
+root       2988  0.0  0.7 274820  7228 ?        Ssl  Th0112   0:00 /usr
+root       3072  0.0  0.0      0     0 ?        S    Th0112   0:00 [kwo
+ling       3110  0.0  0.8 372664  7976 ?        Sl   Th0112   0:00 /usr
+ling       3157  0.0  0.6 370316  6760 ?        Sl   Th0112   0:00 /usr
+root       3196  0.0  0.0      0     0 ?        S    Th0112   0:00 [kwo
+ling       3207  0.0  0.5  31220  5556 pts/18   Ss+  Th0112   0:00 bash
+ling       3369  0.0  0.3  31596  3892 pts/17   S+   00:10   0:00 nano 
+root       3410  0.0  0.7 205732  7152 ?        Ssl  00:11   0:00 /usr/
+ling       3415  0.0  0.3  45960  3504 pts/1    R+   00:11   0:00 ps -a
+
+$ps aux | grep firefox
+ling       3535 12.4 21.7 1961940 216504 ?      Sl   00:14   0:04 /usr/lib/firefox/firefox
+
+$cat /proc/3535/status 
+Name:	firefox
+Umask:	0002
+State:	S (sleeping)
+Tgid:	3535
+Ngid:	0
+Pid:	3535
+PPid:	1408
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	128
+Groups:	4 24 27 30 46 113 128 1000 
+NStgid:	3535
+NSpid:	3535
+NSpgid:	1841
+NSsid:	1841
+VmPeak:	 2018540 kB
+VmSize:	 2015368 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	  246796 kB
+VmRSS:	  215736 kB
+RssAnon:	  149780 kB
+RssFile:	   58316 kB
+RssShmem:	    7640 kB
+VmData:	  483972 kB
+VmStk:	     144 kB
+VmExe:	     120 kB
+VmLib:	  137660 kB
+VmPTE:	    1416 kB
+VmPMD:	      20 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+Threads:	46
+SigQ:	0/3712
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000001000
+SigCgt:	0000000f820044ff
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	0
+Cpus_allowed:	ffffffff,ffffffff,ffffffff,ffffffff
+Cpus_allowed_list:	0-127
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	5042
+nonvoluntary_ctxt_switches:	14522
+
+$kill -STOP 3535
+$cat /proc/3535/status 
+Name:	firefox
+State:	T (stopped)
+
+$kill -CONT 3535
+$cat /proc/3535/status 
+Name:	firefox
+State:	S (sleeping)
+
+$kill -KILL 3535
+$cat /proc/3535/status 
+cat: /proc/3535/status: No such file or directory
+
