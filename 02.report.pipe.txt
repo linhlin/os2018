@@ -1,0 +1,14 @@
+$ls | grep list
+
+$cat /etc/passwd | wc -l
+40
+
+$free | grep Mem | awk '{print $2}'
+994868
+
+$cat /proc/cpuinfo | grep "cpu core"
+cpu cores	: 1
+
+$cd -- "$(find /home -name photo)" | ls | grep .jpg | wc -l
+16
+
