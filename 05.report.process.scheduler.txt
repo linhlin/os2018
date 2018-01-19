@@ -1,0 +1,9 @@
+cat /proc/sched_debug | grep "systemd " | awk '{print $1, $4}'
+systemd 3348
+systemd 88
+
+cat /proc/1/sched | grep switches
+nr_switches                                  :                 3333
+nr_voluntary_switches                        :                 2258
+nr_involuntary_switches                      :                 1075
+
