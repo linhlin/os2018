@@ -1,0 +1,4 @@
+ps -o nlwp 2868
+NLWP
+  53
+
